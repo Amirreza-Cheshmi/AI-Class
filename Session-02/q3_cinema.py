@@ -13,7 +13,8 @@ else:
     price=100000
 
 if z == "TUE" :
-    price = price * (20/100)
+    d = price * (20/100)
+    price = price - d
 
 print("age : ", x)
 print("day : ", z)
