@@ -55,5 +55,9 @@ player2.level_up()
 
 print("-"*40)
 print("show info after fight:")
+
 player1.show_info()
+player1.is_alive()
+
 player2.show_info()
+player2.is_alive()
